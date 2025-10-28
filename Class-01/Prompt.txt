@@ -1,0 +1,22 @@
+Prompt:
+The Systematic instructions to tell your agent what to do & how to do
+
+Context:
+Relevant Background Information e.g (source file)
+
+Temperatures:
+Low Temperature:
+optimistically focused (creativity)
+use case: 
+doctor advice, legal matters, code generation, translation, math  problems, banking chatbot (accuracy critical)
+
+Medium Temperatures:
+still focused + slightly creative
+
+
+use case: 
+Email Writing, Customer Support Agent, General Q/A, e-commerce assistant (helpful + natural)
+
+High Temperature:
+( Relevancy + Validation) Could be compromised without facts & figure could be fine.
+Use Case: Brainstorming, poetry, tagline, content creation, idea generation
