@@ -57,20 +57,18 @@ Prompt: I want to plan my career path using a Tree of Thoughts approach. Think 3
 
 
 Example - Career Decision:
- 
-                    "Mujhe kya seekhna chahiye?"
-                              |
-        ┌─────────────────────┼─────────────────────┐
-        ↓                     ↓                     ↓
-   Frontend Dev          Backend Dev          AI/ML Engineer
-        |                     |                     |
-    Evaluate:             Evaluate:             Evaluate:
-    - Market demand       - Job scope           - Future growth
-    - My interest         - Salary              - Difficulty
-    - Learning time       - Remote options      - Prerequisites
-        |                     |                     |
-    [Score: 7/10]         [Score: 8/10]         [Score: 9/10]
-        |                     |                     |
-        ❌                    ❌                    ✅ Selected!
+
+```mermaid
+graph TD;
+    A["Mujhe kya seekhna chahiye?"] --> B[Frontend Dev]
+    A --> C[Backend Dev]
+    A --> D[AI/ML Engineer]
+    B --> E["Evaluate:<br>- Market demand<br>- My interest<br>- Learning time"]
+    C --> F["Evaluate:<br>- Job scope<br>- Salary<br>- Remote options"]
+    D --> G["Evaluate:<br>- Future growth<br>- Difficulty<br>- Prerequisites"]
+    E --> H["Score: 7/10<br>❌"]
+    F --> I["Score: 8/10<br>❌"]
+    G --> J["Score: 9/10<br>✅ Selected!"]
+```
 
 
