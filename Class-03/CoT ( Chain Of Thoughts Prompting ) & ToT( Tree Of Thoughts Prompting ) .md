@@ -23,13 +23,12 @@ Prompt: I want to learn Agentic AI with a clear understanding of how it works in
 
 Example -  Learning RoadMaps
 
-Step 1: Frontend seekho (HTML, CSS, JavaScript)
-     ↓
-Step 2: Backend seekho (Node.js, databases)
-     ↓
-Step 3: AI Agents ka concept samjho
-     ↓
-Step 4: Agentic Workflows implement karo
+```mermaid
+graph TD;
+    A[Step 1: Frontend seekho (HTML, CSS, JavaScript)] --> B[Step 2: Backend seekho (Node.js, databases)]
+    B --> C[Step 3: AI Agents ka concept samjho]
+    C --> D[Step 4: Agentic Workflows implement karo]
+```
 
 
 ToT ( Tree Of Thought Prompting):
@@ -58,17 +57,19 @@ Prompt: I want to plan my career path using a Tree of Thoughts approach. Think 3
 
 Example - Career Decision:
 
-```mermaid
-graph TD;
-    A["Mujhe kya seekhna chahiye?"] --> B[Frontend Dev]
-    A --> C[Backend Dev]
-    A --> D[AI/ML Engineer]
-    B --> E["Evaluate:<br>- Market demand<br>- My interest<br>- Learning time"]
-    C --> F["Evaluate:<br>- Job scope<br>- Salary<br>- Remote options"]
-    D --> G["Evaluate:<br>- Future growth<br>- Difficulty<br>- Prerequisites"]
-    E --> H["Score: 7/10<br>❌"]
-    F --> I["Score: 8/10<br>❌"]
-    G --> J["Score: 9/10<br>✅ Selected!"]
-```
+                    "Mujhe kya seekhna chahiye?"
+                              |
+        ┌─────────────────────┼─────────────────────┐
+        ↓                     ↓                     ↓
+   Frontend Dev          Backend Dev          AI/ML Engineer
+        |                     |                     |
+    Evaluate:             Evaluate:             Evaluate:
+    - Market demand       - Job scope           - Future growth
+    - My interest         - Salary              - Difficulty
+    - Learning time       - Remote options      - Prerequisites
+        |                     |                     |
+    [Score: 7/10]         [Score: 8/10]         [Score: 9/10]
+        |                     |                     |
+        ❌                    ❌                    ✅ Selected!
 
 
