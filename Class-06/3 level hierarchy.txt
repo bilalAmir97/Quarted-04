@@ -1,0 +1,55 @@
+Today, we deep dive in Gemini CLI
+
+memory or context is given in GEMINI.md file in order to provide information or in order to store your conversation history.
+GEMINI.md file can be initialized & located at 305 location in your project directory.
+
+1. Root/Home Directory:
+
+	1.1: It is mainly used to define the rules and governing principles that should be applied on each of the project.
+
+		When To Use:
+		- It can be used for the following use cases:
+			- Initialize comments before each feature in every Project.
+			- In order to take LLM response in roman Urdu.
+			- In order to Declare the test before each functionality of each project (TDD)
+		
+		Real World Resemblance: 
+			- Behave gently, talk politely & meet with good etiquettes & ethics with everyone in everywhere - Its your Root level principles 			  that you acquire everywhere and it influence everyone intentionally or unconditionally.
+
+2. Project Root Directory:
+
+	2.1: It is used with an intent to set the instructions in a specific project directory that won't influence any other project directory.
+		When to use: 
+		- In order to tell the project's tech stack like for frontend: Nextjs , Backend: Python & FAST API, Database: MongoDB or MYSQL.
+
+		Real world Resemblance: 
+
+			- Consider your home (as a Project Level), Workspace as (Your Root Level), and Yourself as (Module/Component/Sub-Directory/Chunk)
+			- If I am in home (Your Project Directory) and get tired, I will take a rest or nap for a while
+			- It's your Project Root Level. It shouldn't influence my manners/ethics that is (Root Level).									For example: if I'm outside the home (Project Level) at workspace or anywhere and gets tired, I can't take a nap there. 
+			- However, It could impact my Routine (Module Level):
+
+				For example: Consider a scenario, as your exams are in upcoming week, you will have to focus on studies that will restricts 				your leisure activities like sports, entertainment, and playing games. It will just impact your routine (Modular Level) & it 				doesn't have any charge or impact your home(your project level) or your ethics & manners(you Root Level)
+			
+			- What does it means?
+
+			- Ans: When you make GEMINI.md file in root level directory (.gemini) it will influence every project & module.	 But when you 				declare GEMINI.md in project level, it wont influence your every project & just like it when you declare GEMINI.md in any specific 			module or component, it won't influence your entire project or other project, it just has impact on a specific module on which you 			declared it.
+			
+			
+3. Sub Folder/Module/Component Level: 
+
+	3.1: It is used in order to set the instructions or provide the specs/details of specific feature under an specific project directory.
+
+		Real World Scenarios: 
+			- Consider yourself as (Component/Module/Chunk/Sub-Folder)
+			- Your personal plans: On Weekends, I will take rest or spend time in family, etc. It will just impact me or my routine work 				That's your (Module/Component Level).
+
+##FAST API
+0. Initialize a project through UV package manager (10-100x faster than pip)
+1. Create/Activate a virtual environment (To maintain project dependancies)
+
+###Prompt Work:
+2. Make an instance and endpoints
+
+Start the Server: uv run uvicorn main:app --reload
+		
